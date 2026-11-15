@@ -1,0 +1,5 @@
+- id: a11yratchet-wcag-gate
+  name: "A11yRatchet WCAG 2.2 AA & EN 301 549 Ratchet Gate"
+  entry: a11yratchet-cli
+  language: python
+  pass_filenames: false
