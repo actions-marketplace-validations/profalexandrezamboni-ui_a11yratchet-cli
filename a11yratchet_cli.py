@@ -13,7 +13,7 @@ def main() -> int:
     with urllib.request.urlopen(req, timeout=15) as resp:
         res = json.loads(resp.read().decode("utf-8"))
     print(json.dumps(res, indent=2))
-    if not res.get("gate_passed", True):
+    if not res.get("gate_passed", res.get("ratchet_gate_passed", res.get("verdict") == "PASS")):
         print(f"\n[A11yRatchet] Net-new WCAG 2.2 / EN 301 549 regression! Export compliance bundles ($19/mo Starter · $39/mo Team): https://specgate.profalexandrezamboni.workers.dev/#pricing", file=sys.stderr)
         return 1
     return 0
