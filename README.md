@@ -4,6 +4,8 @@
 
 **A11yRatchet** freezes legacy accessibility debt in brownfield web apps using a monotonic per-rule baseline ratchet while blocking net-new `axe-core` regressions mapped deterministically to **WCAG 2.2 AA** and **European Accessibility Act (`EN 301 549 V3.2.1` Chapter 9)** clauses.
 
+- **Zero-Click Live WCAG 2.2 & EN 301 549 Demo (Runs Instantly):** https://specgate.profalexandrezamboni.workers.dev/?demo=a11yratchet
+- **Free Zero-Login Remote MCP Server (`/mcp`) for Cursor, Claude Code & VS Code:** https://specgate.profalexandrezamboni.workers.dev/integrations/mcp-server-cursor-claude-code
 - **Interactive WCAG 2.2 & EN 301 549 Evaluator:** https://specgate.profalexandrezamboni.workers.dev/tools/wcag-2-2-en-301-549-ci-gate
 - **Comparison: A11yRatchet vs. axe-linter vs. pa11y-ci:** https://specgate.profalexandrezamboni.workers.dev/compare/a11yratchet-vs-axe-linter-vs-pa11y-ci
 - **Full Technical Reference (`llms-full.txt`):** https://specgate.profalexandrezamboni.workers.dev/llms-full.txt
