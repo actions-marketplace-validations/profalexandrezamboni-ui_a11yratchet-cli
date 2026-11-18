@@ -6,6 +6,8 @@
 
 - **Zero-Click Live WCAG 2.2 & EN 301 549 Demo (Runs Instantly):** https://specgate.profalexandrezamboni.workers.dev/?demo=a11yratchet
 - **Free Zero-Login Remote MCP Server (`/mcp`) for Cursor, Claude Code & VS Code:** https://specgate.profalexandrezamboni.workers.dev/integrations/mcp-server-cursor-claude-code
+- **Next.js App Router + Playwright + `@axe-core/playwright` CI Gate:** https://specgate.profalexandrezamboni.workers.dev/integrations/nextjs-playwright-axe-wcag-ci-gate
+- **Native OASIS SARIF v2.1.0 Export for GitHub Code Scanning:** https://specgate.profalexandrezamboni.workers.dev/integrations/github-code-scanning-sarif-ci-gate
 - **Interactive WCAG 2.2 & EN 301 549 Evaluator:** https://specgate.profalexandrezamboni.workers.dev/tools/wcag-2-2-en-301-549-ci-gate
 - **Comparison: A11yRatchet vs. axe-linter vs. pa11y-ci:** https://specgate.profalexandrezamboni.workers.dev/compare/a11yratchet-vs-axe-linter-vs-pa11y-ci
 - **Full Technical Reference (`llms-full.txt`):** https://specgate.profalexandrezamboni.workers.dev/llms-full.txt
